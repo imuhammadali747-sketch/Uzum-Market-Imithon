@@ -1,0 +1,3647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uzum Market</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="w-full bg-white shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3 text-sm">
+
+      <div class="flex items-center gap-6 text-gray-700">
+        <p class="flex items-center gap-1 hover:text-black cursor-pointer">
+          <i class="fa-solid fa-location-dot"></i>
+        <p class="font-medium">Shahar: Toshkent</p>
+        </p>
+
+        <p class="hover:text-black cursor-pointer transition">
+          Topshirish punktlari
+        </p>
+      </div>
+
+      <div class="hidden md:block text-gray-500 text-center">
+        <p>Buyurtmangizni 1 kunda bepul yetkazib beramiz!</p>
+      </div>
+
+      <div class="flex items-center gap-6 text-gray-700">
+        <p class="hover:text-black cursor-pointer">Savol-javoblar</p>
+        <p class="hover:text-black cursor-pointer">Buyurtmalarim</p>
+
+        <p class="flex items-center gap-2 cursor-pointer hover:text-black">
+        <p id="til"><img src="./ozbekcha.png" alt="">O‘zbekcha</p>
+        </p>
+      </div>
+
+    </div>
+  </div>
+  <header class="headerone">
+    <div class="logo"><img src="./Uzum market.png" alt="" width="215" height="32" loading="lazy" decoding="async"></div>
+    <div class="tizim">
+      <div class="katalog">
+        <button><img src="./button.png" alt="" width="84" height="40" loading="lazy" decoding="async"></button>
+      </div>
+      <div class="search">
+        <input type="search" placeholder="Qidiruv...">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+    <div class="icon">
+      <div class="user hover:text-black cursor-pointer"><i class="fa-regular fa-user"></i> Kirish</div>
+      <div class="saralangan hover:text-black cursor-pointer"><i class="fa-regular fa-heart"></i> Saralangan</div>
+      <div class="savat hover:text-black cursor-pointer"><i class="fa-solid fa-shopping-cart"></i> Savat</div>
+    </div>
+  </header>
+  <header class="headertwo">
+    <img src="./mudatli tolov.png" alt="" width="130" height="36" loading="lazy" decoding="async">
+    <nav>
+      <ul>
+        <li>Elektronika</li>
+        <li>Maishiy texnika</li>
+        <li>Kiyim</li>
+        <li>Poyabzallar</li>
+        <li>Aksessuarlar</li>
+        <li>Goʻzallik va parvarish</li>
+        <li>Salomatlik</li>
+        <li>Uy-roʻzgʻor buyumlari</li>
+        <li>Qurilish va taʼmirlash</li>
+      </ul>
+    </nav>
+    <p>Yana ▾</p>
+  </header>
+  <div class="yangiliklar">
+    <img src="./yangilik1.png" alt="" width="1240" height="414" loading="lazy" decoding="async">
+  </div>
+  <div class="name">
+    <h1>Arzon narxlar <i class="fa-solid fa-angle-right "></i></h1>
+  </div>
+  <div class="cards">
+    <!-- 1 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Eksklyuziv</p>
+      <img src="./card1.png" alt="">
+      <div class="malumot">
+        <p>Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (4092 sharsh)</p>
+      </div>
+      <h2 class="price">1 560 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>15 000 so'm</del>
+          <h1>13 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card2.png" alt="">
+      <div class="malumot">
+        <p>Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (8 sharsh)</p>
+      </div>
+      <h2 class="price">299 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>3 010 000 so'm</del>
+          <h1>2 499 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+    <!--  3  -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Eksklyuziv</p>
+      <img src="./card3.png" alt="">
+      <div class="malumot">
+        <p>Kir yuvish kukuni Oila tanlovi "Ayoztazeligi", avtomat, 3 kg</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.5 (123 sharsh)</p>
+      </div>
+      <h2 class="price">4 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>57 000 so'm</del>
+          <h1>41 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <div>
+
+      <!-- 4 -->
+
+      <div class="card">
+        <i id="heart" class="fa-regular fa-heart"></i>
+        <p id="reklama">Aksiya</p>
+        <img src="./card4.png" alt="">
+        <div class="malumot">
+          <p>Yangi tug'ilgan chaqaloqlar uchuntana to'plami 100% paxta, 3 dona</p>
+        </div>
+        <div class="starts">
+          <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+        </div>
+        <h2 class="price">11 880 so'm/oyiga</h2>
+        <div class="shop">
+          <div class="text">
+            <del>160 000 so'm</del>
+            <h1>99 000 so'm</h1>
+          </div>
+          <button><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card5.jpg" alt="">
+      <div class="malumot">
+        <p>Sdobnoe pechenye Zarqand Brownie cookies, 490 g</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.5 (123 sharsh)</p>
+      </div>
+      <h2 class="price">4 320 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>59 000 so'm</del>
+          <h1>36 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+
+    <!-- 6 -->
+
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card6.jpg" alt="">
+      <div class="malumot">
+        <p>Televizor Samsung Crystal UHD 4K 43", 50", 55", 65" CU7100 Smart TV</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (5 sharsh)</p>
+      </div>
+      <h2 class="price">587 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>5 830 000so'm</del>
+          <h1>4 899 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+    <!-- 7 -->
+
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card7.png" alt="">
+      <div class="malumot">
+        <p>Avtomobil va uy uchun portativ, simsiz, kuchli JB-107 changyutgic…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.7 (32 sharsh)</p>
+      </div>
+      <h2 class="price">23 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>620 000 so'm</del>
+          <h1>199 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 8 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card8.png" alt="">
+      <div class="malumot">
+        <p>Sumka shopper ayollar uchun,yelkama, charmdan, eko zamsh,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (4 sharsh)</p>
+      </div>
+      <h2 class="price">11 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>400 000 so'm</del>
+          <h1>99 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 9 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card9.png" alt="">
+      <div class="malumot">
+        <p>Smartfon Xiaomi Redmi Note 13 Pro, 8/256 ГБ, 12/512 ГБ, 6.67", 1…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (6 sharsh)</p>
+      </div>
+      <h2 class="price">448 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>6 000 000 so'm</del>
+          <h1>3 739 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 10 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card10.png" alt="">
+      <div class="malumot">Yostiqlar to'plami, bambukdan,gipoallergenli, ekologik toza, 70 *…
+        <p></p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (165 sharsh)</p>
+      </div>
+      <h2 class="price">10 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>197 000 so'm</del>
+          <h1>89 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 11 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card11.png" alt="">
+      <div class="malumot">
+        <p>Drel shurup buragich L-FINE,cho'tkasiz to'plam, 54 ta buyumdan</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (10 sharsh)</p>
+      </div>
+      <h2 class="price">71 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>850 000 so'm</del>
+          <h1>559 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 12 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama"> DI sport</p>
+      <img src="./card12.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar uchun krossovka Jomar.vitaly men 2201 black</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (20 sharsh)</p>
+      </div>
+      <h2 class="price">41 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>687 000 so'm</del>
+          <h1>349 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 13 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card13.png" alt="">
+      <div class="malumot">
+        <p>Kir yuvish mashinasi Beko WSPE7612A, Inverter ProSmart, 7…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (47 sharsh)</p>
+      </div>
+      <h2 class="price">455 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>4 570 000 so'm</del>
+          <h1>3 799 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 14 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card14.png" alt="">
+      <div class="malumot">
+        <p>Gazlangan ichimlik Pepsi, 1.5 litr</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.5 (123 sharsh)</p>
+      </div>
+      <h2 class="price">1 440 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>13 000 so'm</del>
+          <h1>12 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 15 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card15.png" alt="">
+      <div class="malumot">
+        <p>Casio F-91W Qo'l Soati, Elektron tablo, Budilnik, Sekundomer, LED…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (3 sharsh)</p>
+      </div>
+      <h2 class="price">4 320 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>59 000 so'm</del>
+          <h1>36 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 16 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card16.png" alt="">
+      <div class="malumot">
+        <p>Sport kostyumi o'g'il bolalar uchun DUDUKA TRENDS. To'plam Hudi…</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i>  4.5  (123 sharsh)</p> -->
+      </div>
+      <h2 class="price">23 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>338 000 so'm</del>
+          <h1>199 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 17 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card17.png" alt="">
+      <div class="malumot">
+        <p>Chanyutgich Artel VCB0316, 1600Vt</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (48 sharsh)</p>
+      </div>
+      <h2 class="price">83 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>999 000 so'm</del>
+          <h1>699 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 18 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card18.png" alt="">
+      <div class="malumot">
+        <p>Avtomobil monitorlari Teyes CC2L Plus 10.2/2+32 Gentra, Lasetti…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.2 (29 sharsh)</p>
+      </div>
+      <h2 class="price">142 800 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>1 752 000 so'm</del>
+          <h1>1 190 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 19 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card19.png" alt="">
+      <div class="malumot">
+        <p>Shampun L'Oreal Paris Elseve, to'liq tiklanish 5, 250 ml</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (6 sharsh)</p>
+      </div>
+      <h2 class="price">3 240 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>38 000 so'm</del>
+          <h1>27 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 20 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card20.png" alt="">
+      <div class="malumot">
+        <p>Tabiiy charmdan tayyorlangan etiklar, qishki, mex bilan, suv…</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i>  4.5  (123 sharsh)</p> -->
+      </div>
+      <h2 class="price">35 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>599 000 so'm</del>
+          <h1>299 000 so'm</h1>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+
+
+
+</div>
+
+
+    <div class="btncontine">
+      <button>Yana koʻrsatish 20</button>
+    </div>
+
+<div class="name">
+  <h1>Elektronika <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+<div class="cards">
+  <!-- 21 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <p id="vaqtinchalik">Vaqtinchalik chegirma</p>
+    <img src="./card21.png" alt="">
+    <div class="malumot">
+      <p>Professional LED monitor Samsung,24", 27" T450F</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (6 sharsh)</p>
+    </div>
+    <h2 class="price">215 880 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>2 998 000 so'm</del>
+        <h1>1 799 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+  </div>
+  <!-- 22 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <p id="vaqtinchalik">Vaqtinchalik chegirma</p>
+    <img src="./card22.png" alt="">
+    <div class="malumot">
+      <p>Anker Life 2 Neo simsiz quloqchinlari chuqur bosh va uzo…</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (6 sharsh)</p>
+    </div>
+    <h2 class="price">70 680 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>2 998 000 so'm</del>
+        <h1>1 799 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+  </div>
+  <!-- 23 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <p id="vaqtinchalik">Vaqtinchalik chegirma</p>
+    <img src="./card23.png" alt="">
+    <div class="malumot">
+      <p>Aqlli televizor Xiaomi Mi TV A2 55",50", 43", 32" Android TV, ekran…</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 4.9 (272 sharsh)</p>
+    </div>
+    <h2 class="price">293 880 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>4 238 000 so'm</del>
+        <h1>2 499 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+   </div>
+   <!-- 24 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card24.png" alt="">
+    <div class="malumot">
+      <p>Aqlli Yandex stansiya 2, Alisa bilan,1 yillik kafolat</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+    </div>
+    <h2 class="price">259 080 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>2 699 000 so'm</del>
+        <h1>2 159 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+   </div>
+   <!-- 25 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <p id="vaqtinchalik">Vaqtinchalik chegirma</p>
+      <img src="./card25.png" alt="">
+      <div class="malumot">
+        <p>Smartfon Honor X8b 8/128/256 GB,NFC, 2NanoSIM, ko'zni himoya…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (3 sharsh)</p>
+      </div>
+      <h2 class="price">371 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>4 782 000 so'm</del>
+          <h1>3 099 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    </div>
+</div>
+
+<div class="name">
+  <h1>Oshxona uchun texnika <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+<div class="cards">
+  <!-- 26 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card26.png" alt="">
+    <div class="malumot">
+      <p>Mikroto'lqinli pech Goodwell GMF-2012W, Solo, 20 L</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+    </div>
+    <h2 class="price">106 680 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>1 485 000 so'm</del>
+        <h1>889 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+  </div>
+  <!-- 27 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card27.png" alt="">
+    <div class="malumot">
+      <p>Sharbat chiqargich LAMO LM-J718S</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 4.7 (64 sharsh)</p>
+    </div>
+    <h2 class="price">75 960 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>782 000 so'm</del>
+        <h1>633 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+   </div>
+   <!-- 28 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card28.png" alt="">
+    <div class="malumot">
+      <p>Suv uchun kuler Sel 27, freon bilan sovutish</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (7 sharsh)</p>
+    </div>
+    <h2 class="price">135 240 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>1 653 000 so'm</del>
+        <h1>1 127 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    </div>
+    <!-- 29 -->
+     <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card29.png" alt="">
+    <div class="malumot">
+      <p>Maydalagich Chopper Sonifer SF-8107, 300 Vt, 1.8 litr</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (9 sharsh)</p>
+    </div>
+    <h2 class="price">52 200 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>695 000 so'm</del>
+        <h1>435 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    </div>
+    <!-- 30 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card30.png" alt="">
+    <div class="malumot">
+      <p>Qo'l mikseri Haley HY-1636</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (14 sharsh)</p>
+    </div>
+    <h2 class="price">36 000 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <!-- <del>2 699 000 so'm</del> -->
+        <h1>300 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    </div>
+</div>
+
+  <div class="yangiliklar">
+    <img src="./yangilik2.png" >
+  </div>
+
+
+<div class="name">
+  <h1>Muddatli to'lov <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+<div class="cards">
+  <!-- 31 -->
+  <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card31.png" alt="">
+    <div class="malumot">
+      <p>Drel shurup buragich L-FINE,cho'tkasiz to'plam, 54 ta buyumdan</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 5.0 (10 sharsh)</p>
+    </div>
+    <h2 class="price">71 880 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>850 000 so'm</del>
+        <h1>599 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+  </div>
+  <!-- 32 -->
+   <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card32.png" alt="">
+    <div class="malumot">
+      <p>Avtomobil monitorlari Teyes CC2L Plus 10.2/2+32 Gentra, Lasetti…</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 4.2 (29 sharsh)</p>
+    </div>
+    <h2 class="price">142 800 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>1 752 000 so'm</del>
+        <h1>1 190 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+   </div>
+   <!-- 33 -->
+    <div class="card">
+        <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card33.png" alt="">
+    <div class="malumot">
+      <p>Avtomatik elektron qon bosimi o'lchagichi qon bosimini o'lchash…</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 4.1 (27 sharsh)</p>
+    </div>
+    <h2 class="price">26 400 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>450 000 so'm</del>
+        <h1>220 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    </div>
+    <!-- 34 -->
+     <div class="card">
+        <i id="heart" class="fa-regular fa-heart"></i>
+    <p id="reklama">Aksiya</p>
+    <img src="./card34.png" alt="">
+    <div class="malumot">
+      <p>Erkaklar sport to'plami, xudi shim bilan, qora</p>
+    </div>
+    <div class="starts">
+      <p><i class="fa-solid fa-star"></i> 4.9 (237 sharsh)</p>
+    </div>
+    <h2 class="price">23 400 so'm/oyiga</h2>
+    <div class="shop">
+      <div class="text">
+        <del>320 000 so'm</del>
+        <h1>195 000 so'm</h1>
+      </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+    </div>
+    </div>
+    <!-- 35 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card35.png" alt="">
+      <div class="malumot">
+        <p>Avtomobil videoregistrator-oyna orqani ko'rinish kamerasi bilan Ful…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.3 (113 sharsh)</p>
+      </div>
+      <h2 class="price">22 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>300 000 so'm</del>
+          <h1>189 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+</div>
+
+  <div class="yangiliklar">
+    <img src="./yangilik3.png" alt="">
+  </div>
+
+  <div class="name">
+    <h1>Issiq texnika <i class="fa-solid fa-angle-right "></i></h1>
+  </div>
+
+<div class="cards">
+  <!-- 36 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card36.png" alt="">
+      <div class="malumot">
+        <p>Elektr isitgich, konvektor ARSHiA,2500 Vt, 3 isitish rejimi,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (75 sharsh)</p>
+      </div>
+      <h2 class="price">42 000 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>670 000 so'm</del>
+          <h1>350 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 37 -->
+   <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card37.png" alt="">
+      <div class="malumot">
+        <p>Konditsioner TCL TAC - 12CHSD/YA 11 I Invertor, ten bilan</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (96 sharsh)</p>
+      </div>
+      <h2 class="price">593 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>6 915 000 so'm</del>
+          <h1>4 949 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+   <!-- 38 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card38.png" alt="">
+      <div class="malumot">
+        <p>Havo tozalagich Avura iqlim kompleksi, isitish, namlash,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.2 (9 sharsh)</p>
+      </div>
+      <h2 class="price">177 600 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>2 400 000 so'm</del>
+          <h1>1 480 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 39 -->
+     <div class="card">
+        <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card39.png" alt="">
+      <div class="malumot">
+        <p>Elektr konvektor DENZEL, XCE-1000, 230 В, 1000 Vt, X-shaklidag…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (4 sharsh)</p>
+      </div>
+      <h2 class="price">82 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>862 000 so'm</del>
+          <h1>689 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+     </div>
+    <!-- 40 -->
+     <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card40.png" alt="">
+      <div class="malumot">
+        <p>Standart panelli radiator AKFA,isitgich, balandligi 500 mm</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (13 sharsh)</p>
+      </div>
+      <h2 class="price">115 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>1 110 000 so'm</del>
+          <h1>960 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+     </div>
+</div>
+
+  <div class="name">
+    <h1>Uydan chiqmasdan ro’zg’or <i class="fa-solid fa-angle-right "></i></h1>
+  </div>
+  <div class="cards">
+    <!-- 41 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card41.png" alt="">
+      <div class="malumot">
+        <p>Bug'doy uni Melek, birinchi nav, 1kg</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (1927 sharsh)</p>
+      </div>
+      <h2 class="price">1 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>13 000 so'm</del>
+          <h1>9 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 42 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card42.png" alt="">
+      <div class="malumot">
+        <p>Seld Za Rodinu, yog'da Atlantika tabiiy, 185 g</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (244 sharsh)</p>
+      </div>
+      <h2 class="price">1 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>19 000 so'm</del>
+          <h1>16 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 43 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card43.png" alt="">
+      <div class="malumot">
+        <p>Bug'doy uni oliy nav Алтын дан, 5kg</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (17 sharsh)</p>
+      </div>
+      <h2 class="price">7 440 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <!-- <del>2 400 000 so'm</del> -->
+          <h1>62 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 44 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card44.png" alt="">
+      <div class="malumot">
+        <p>Kungaboqar yog'i Zolotaya semechka, 500 ml</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (15 sharsh)</p>
+      </div>
+      <h2 class="price">1 440 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>14 000 so'm</del>
+          <h1>12 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 45 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card45.png" alt="">
+      <div class="malumot">
+        <p>Javdar uni Алтын - Дан 95, 1 kg</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (104 sharsh)</p>
+      </div>
+      <h2 class="price">1 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <!-- <del>2 400 000 so'm</del> -->
+          <h1>10 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+</div>
+
+<div class="name">
+  <h1>Qishki dam <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+
+<div class="cards">
+  <!-- 46 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card46.png" alt="">
+      <div class="malumot">
+        <p>Peshonaga kiydiradigan fonar,harakat sensori va USB zaryadlas…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (55 sharsh)</p>
+      </div>
+      <h2 class="price">3 840 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>65 000 so'm</del>
+          <h1>32 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 47 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card47.png" alt="">
+      <div class="malumot">
+        <p>Vibro tayoqchalar qo'llar va qorin mushaklari uchun, vibrostik, vibro…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (14 sharsh)</p>
+      </div>
+      <h2 class="price">15 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>108 000 so'm</del>
+          <h1>129 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 48 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card48.png" alt="">
+      <div class="malumot">
+        <p>Bosh tasmasi , Headband , tennis ,futbol va boshqa sport turlari…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (71 sharsh)</p>
+      </div>
+      <h2 class="price">4 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>55 000 so'm</del>
+          <h1>35 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 49 -->
+   <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card49.png" alt="">
+      <div class="malumot">
+        <p>Fitness to'pi, gimnastika, sikanlar bilan, 200 kg gacha, 75 smass="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (24 sharsh)</p>
+      </div>
+      <h2 class="price">11 640 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>171 000 so'm</del>
+          <h1>97 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 50 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card50.png" alt="">
+      <div class="malumot">
+        <p>Sport va raqs uchun tizzalar,voleybol basketboli uchun tizza…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (21 sharsh)</p>
+      </div>
+      <h2 class="price">14 160 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>200 000 so'm</del>
+          <h1>118 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+</div>
+
+
+<div class="name">
+  <h1>Shinam uy <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+    <!-- 51 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card51.png" alt="">
+      <div class="malumot">
+        <p>Dekorativ xushbo'y choy shamlari Tea Lights, yurak va doira…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (40 sharsh)</p>
+      </div>
+      <h2 class="price">4 320 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>85 000 so'm</del>
+          <h1>36 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 52 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card52.png" alt="">
+      <div class="malumot">
+        <p>Organayzer paypoq va ichki kiyimlarni saqlash uchun, 7, 16 va…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (65 sharsh)</p>
+      </div>
+      <h2 class="price">5 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>130 000 so'm</del>
+          <h1>49 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 53 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card53.png" alt="">
+      <div class="malumot">
+        <p>Ilgich plastik ko'p darajali rangli,shimlar, jinsi, taytlar, kamarlar,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (166 sharsh)</p>
+      </div>
+      <h2 class="price">1 440 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>30 000 so'm</del>
+          <h1>12 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 54 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card54.png" alt="">
+      <div class="malumot">
+        <p>Ilgich tishli tashqi kiyim va shim uchun rangli plastik bardoshli 1…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (578 sharsh)</p>
+      </div>
+      <h2 class="price">480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>10 000 so'm</del>
+          <h1>4 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+    <!-- 55 -->
+    <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card55.png" alt="">
+      <div class="malumot">
+        <p>Blinnitsa tagi olmaydigan quymoq va blinchiklar uchun, cheti past…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (5 sharsh)</p>
+      </div>
+      <h2 class="price">10 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>220 000 so'm</del>
+          <h1>89 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+    </div>
+</div>
+
+<div class="name">
+  <h1>Go'zallik vositalari <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 56 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card56.png" alt="">
+      <div class="malumot">
+        <p>Yuz va tana uchun krem Чистая  Линия, oziqlantiruvchi va…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (307 sharsh)</p>
+      </div>
+      <h2 class="price">1 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>22 000 so'm</del>
+          <h1>16 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 57 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card57.png" alt="">
+      <div class="malumot">
+        <p>Soch uchun bo'yoq Garnier Color Naturals, to'q kashtan, ton 3, 110 ml</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (55 sharsh)</p>
+      </div>
+      <h2 class="price">3 000 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>37 000 so'm</del>
+          <h1>25 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 58 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card58.png" alt="">
+      <div class="malumot">
+        <p>Kipriklar uchun tush Eveline Extension Volume Professional…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.1 (45 sharsh)</p>
+      </div>
+      <h2 class="price">3 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>54 000 so'm</del>
+          <h1>29 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 59 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card59.png" alt="">
+      <div class="malumot">
+        <p>Yuz uchun skrab Garnier O'rik, 50ml</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (3 sharsh)</p>
+      </div>
+      <h2 class="price">5 040 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>107 000 so'm</del>
+          <h1>42 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 60 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card60.png" alt="">
+      <div class="malumot">
+        <p>Soch uchun sprey-mist Corl,keratin va bug'doy oqsili bilan, 20…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (83 sharsh)</p>
+      </div>
+      <h2 class="price">5 440 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>90 000 so'm</del>
+          <h1>45 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Mashhur <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 61 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card61.png" alt="">
+      <div class="malumot">
+        <p>Radio boshqariladigan o'yinchoq,bolalar uchun mini dron, qo'l bilan…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.5 (249 sharsh)</p>
+      </div>
+      <h2 class="price">8 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>148 000 so'm</del>
+          <h1>69 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 62 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card62.png" alt="">
+      <div class="malumot">
+        <p>G'ilof kiyimlarni saqlash uchunzamokda</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (75 sharsh)</p>
+      </div>
+      <h2 class="price">2 040 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>35 000 so'm</del>
+          <h1>17 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 63 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card63.png" alt="">
+      <div class="malumot">
+        <p>Soch uchun qisqich-qisqichbaqa,kauchuk</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (419 sharsh)</p>
+      </div>
+      <h2 class="price">1 220 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>60 000 so'm</del>
+          <h1>10 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 64 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card64.png" alt="">
+      <div class="malumot">
+        <p></p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (70 sharsh)</p>
+      </div>
+      <h2 class="price">15 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>500 000 so'm</del>
+          <h1>129 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!--65  -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card65.png" alt="">
+      <div class="malumot">
+        <p></p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (101 sharsh)</p>
+      </div>
+      <h2 class="price">2 640 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>40 000 so'm</del>
+          <h1>22 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 66 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card66.png" alt="">
+      <div class="malumot">
+        <p></p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (162 sharsh)</p>
+      </div>
+      <h2 class="price">6 600 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>179 000 so'm</del>
+          <h1>55 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 67 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card67.png" alt="">
+      <div class="malumot">
+        <p>Seld Za Rodinu, yog'da Atlantika tabiiy, 185 g</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (244 sharsh)</p>
+      </div>
+      <h2 class="price">1 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>19 000 so'm</del>
+          <h1>16 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 68 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card68.png" alt="">
+      <div class="malumot">
+        <p>Tualet qog'ozi ushlagichi, o'z-o'zidan yopishadigan</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (28 sharsh)</p>
+      </div>
+      <h2 class="price">7 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>99 000 so'm</del>
+          <h1>59 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 69 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card69.png" alt="">
+      <div class="malumot">
+        <p>Simsiz naushniklar Cat Ear Bluetooth, bolalar uchun, yorqin…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (184 sharsh)</p>
+      </div>
+      <h2 class="price">8 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>125 000 so'm</del>
+          <h1>69 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 70 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card70.png" alt="">
+      <div class="malumot">
+        <p>Radar detektori Neoline X-COP 7700S, avtomobil zaryadlash…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (119 sharsh)</p>
+      </div>
+      <h2 class="price">239 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>3 500 000 so'm</del>
+          <h1>1 999 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 71 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card71.png" alt="">
+      <div class="malumot">
+        <p>Aralashma Nestogen 1 bolalar uchun, 600 g</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (37 sharsh)</p>
+      </div>
+      <h2 class="price">10 560 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <!-- <del>220 000 so'm</del> -->
+          <h1>88 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 72 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card72.png" alt="">
+      <div class="malumot">
+        <p>Kir yuvish kukuni Persil Deep Clean,Verneldan sarhillik, 3 kg</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (116 sharsh)</p>
+      </div>
+      <h2 class="price">10 440 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>90 000 so'm</del>
+          <h1>87 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 73 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card73.png" alt="">
+      <div class="malumot">
+        <p>Ployka gofre, uch to'qinli, soch turmaklash uchun</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (22 sharsh)</p>
+      </div>
+      <h2 class="price">18 600 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>381 000 so'm</del>
+          <h1>155 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 74 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card74.png" alt="">
+      <div class="malumot">
+        <p>Bolalar uchun grafik LCD plansheti rasm chizish uchun, stilusli,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (962 sharsh)</p>
+      </div>
+      <h2 class="price">3 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>50 000 so'm</del>
+          <h1>29 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 75 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card75.png" alt="">
+      <div class="malumot">
+        <p>Nabor kluch, asboblar to'plami Rockforce RF-42022-5, 202…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (7 sharsh)</p>
+      </div>
+      <h2 class="price">367 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>3 600 000 so'm</del>
+          <h1>3 060 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 76 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card76.png" alt="">
+      <div class="malumot">
+        <p>Kiyimlarni saqlash uchun organayzer</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (178 sharsh)</p>
+      </div>
+      <h2 class="price">7 560 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>120 000 so'm</del>
+          <h1>63 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!--77  -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card77.png" alt="">
+      <div class="malumot">
+        <p>Oyoq oldidagi silikon tagliklar shikastlanish qarshi</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (36 sharsh)</p>
+      </div>
+      <h2 class="price">2 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>45 000 so'm</del>
+          <h1>19 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 78 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card78.png" alt="">
+      <div class="malumot">
+        <p>Qizlar uchun soch rezinkalar to'plami, choksiz, 100 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (319 sharsh)</p>
+      </div>
+      <h2 class="price">1 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>30 000 so'm</del>
+          <h1>16 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 79 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card79.png" alt="">
+      <div class="malumot">
+        <p>Asboblar to'plami elektr burg'uli ISMA-1095, qutida 95 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (16 sharsh)</p>
+      </div>
+      <h2 class="price">71 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>768 000 so'm</del>
+          <h1>594 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 80 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card80.png" alt="">
+      <div class="malumot">
+        <p>Qo'lda sabzavot kesuvchi, 6 dan 1 gacha qirg'ich</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (64 sharsh)</p>
+      </div>
+      <h2 class="price">14 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>300 000 so'm</del>
+          <h1>119 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+    <div class="btncontine">
+      <button>Yana koʻrsatish 20</button>
+    </div>
+
+
+<div class="name">
+  <h1>Qurilish va ta'mirlash <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+
+<div class="cards">
+  <!-- 81 -->
+   <div class="card">
+      <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card81.png" alt="">
+      <div class="malumot">
+        <p>Perforator MK 02-26 2601</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (23 sharsh)</p>
+      </div>
+      <h2 class="price">65 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>1 000 000 so'm</del>
+          <h1>549 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 82 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card82.png" alt="">
+      <div class="malumot">
+        <p>Shurupovert, Zarbali shurupovert,shurup buragich, 24 qismdan ibor…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.7 (132 sharsh)</p>
+      </div>
+      <h2 class="price">36 000 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>450 000 so'm</del>
+          <h1>300 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 83 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card83.png" alt="">
+      <div class="malumot">
+        <p>Shlangi dush boshi, qora, massaj,suvni tejash, 1.5 m</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.7 (36 sharsh)</p>
+      </div>
+      <h2 class="price">13 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>387 000 so'm</del>
+          <h1>109 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 84 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card84.png" alt="">
+      <div class="malumot">
+        <p>Nabor kluch, asboblar to'plami Rockforce RF-42022-5, 202…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (7 sharsh)</p>
+      </div>
+      <h2 class="price">367 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>3 600 000 so'm</del>
+          <h1>3 060 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+  <!-- 85 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card85.png" alt="">
+      <div class="malumot">
+        <p>Payvandlash ko'zoynaklari, himoya xameleon, avtomatik qorayish bilan</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (10 sharsh)</p>
+      </div>
+      <h2 class="price">10 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>145 000 so'm</del>
+          <h1>90 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+   </div>
+</div>
+
+<div class="name">
+  <h1>Hammasi 99k gacha <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+
+<div class="cards">
+  <!-- 86 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card86.png" alt="">
+      <div class="malumot">
+        <p>Futbolka erkaklar uchun asosiy Samo bir rangli</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (376 sharsh)</p>
+      </div>
+      <h2 class="price">3 840 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>40 000 so'm</del>
+          <h1>32 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 87 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card87.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar uchun sport shimlari,kundalik</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (53 sharsh)</p>
+      </div>
+      <h2 class="price">11 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>105 000 so'm</del>
+          <h1>99 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 88 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card88.png" alt="">
+      <div class="malumot">
+        <p>Ayollarning asosiy vodolazkasi,kashmir, baland bo'yin, ayollar</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (206 sharsh)</p>
+      </div>
+      <h2 class="price">9 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>120 000 so'm</del>
+          <h1>79 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 89 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card89.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar hudisi</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (6 sharsh)</p>
+      </div>
+      <h2 class="price">10 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>150 000 so'm</del>
+          <h1>85 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 90 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card8.png" alt="">
+      <div class="malumot">
+        <p>Vodolazka erkaklar uchun Trends,izolyatsiya qilingan tomoq bilan</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.6 (18 sharsh)</p>
+      </div>
+      <h2 class="price">11 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>400 000 so'm</del>
+          <h1>99 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+<div class="name">
+  <h1>Yangi yıl-yangi bilimlar <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 91 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card91.png" alt="">
+      <div class="malumot">
+        <p>Investitsiya va treydingda million daromad, Nurmuhammad Ismoilov</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (266 sharsh)</p>
+      </div>
+      <h2 class="price">23 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>250 000 so'm</del>
+          <h1>199 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 92 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card92.png" alt="">
+      <div class="malumot">
+        <p>Osnovy marketinga, Filip Kotler</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (3 sharsh)</p>
+      </div>
+      <h2 class="price">16 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>174 000 so'm</del>
+          <h1>139 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 93 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card93.png" alt="">
+      <div class="malumot">
+        <p>Ubiystvo v "Vostochnom ekspresse", Agata Kristi</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p>
+      </div>
+      <h2 class="price">4 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>50 000 so'm</del>
+          <h1>40 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 94 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card94.png" alt="">
+      <div class="malumot">
+        <p>Vecherinka v khellouin - Agata Kristi</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (42 sharsh)</p>
+      </div>
+      <h2 class="price">4 800 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>50 000 so'm</del>
+          <h1>40 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 95 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <p id="vaqtinchalik">Vaqtinchalik chegirma</p>
+      <img src="./card95.png" alt="">
+      <div class="malumot">
+        <p>Yaponskiye svechi. Savdo.Investitsiyalar, Stiv Nison</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (11 sharsh)</p>
+      </div>
+      <h2 class="price">10 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>150 000 so'm</del>
+          <h1>89 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Butun oila uchun oyoq kiyim <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 96 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card96.png" alt="">
+      <div class="malumot">
+        <p>Mo'ynali ayollar uchun yarim poyabzal, issiq yarim poyabzal</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (28 sharsh)</p>
+      </div>
+      <h2 class="price">10 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>210 000 so'm</del>
+          <h1>89 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 97 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card97.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar etiklari, erkaklar qishki krossovkalari</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (21 sharsh)</p>
+      </div>
+      <h2 class="price">10 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>270 000 so'm</del>
+          <h1>89 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 98 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card98.png" alt="">
+      <div class="malumot">
+        <p>Ayollar uchun qishqi botinkalari,uggi, mexli krossovka</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (235 sharsh)</p>
+      </div>
+      <h2 class="price">11 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>220 000 so'm</del>
+          <h1>99 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 99 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card99.png" alt="">
+      <div class="malumot">
+        <p>Ayollar uchun kundalik krossovkalar, 36-41 o'lchamlar</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (41 sharsh)</p>
+      </div>
+      <h2 class="price">21 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>200 000 so'm</del>
+          <h1>179 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 100 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card100.png" alt="">
+      <div class="malumot">
+        <p>Ayollar uchun krossovkalar, bahor-kuz, 4 turdagi, 37-42 o'lchamda</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (35 sharsh)</p>
+      </div>
+      <h2 class="price">17 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>297 000 so'm</del>
+          <h1>149 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+<div class="name">
+  <h1>Bolalar uchun tovalar <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 101 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card101.png" alt="">
+      <div class="malumot">
+        <p>Yangi tug'ilgan chaqaloqlar uchun kombinezon, paxtadan, qalpoqli</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (51 sharsh)</p>
+      </div>
+      <h2 class="price">9 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>184 000 so'm</del>
+          <h1>79 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 102 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card102.png" alt="">
+      <div class="malumot">
+        <p>Bolalar tagliklari Huggies Classic 4,7-18 kg, 14 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (167 sharsh)</p>
+      </div>
+      <h2 class="price">3 600 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>31 000 so'm</del>
+          <h1>30 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 103 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card103.png" alt="">
+      <div class="malumot">
+        <p>Tagliklar Huggies Classic 4, 7-18kg, 68</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (324 sharsh)</p>
+      </div>
+      <h2 class="price">16 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <!-- <del>297 000 so'm</del> -->
+          <h1>141 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 104 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card104.png" alt="">
+      <div class="malumot">
+        <p>Tagliklar Huggies Elite Soft 4, 8-14kg, 19 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (40 sharsh)</p>
+      </div>
+      <h2 class="price">8 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <!-- <del>297 000 so'm</del> -->
+          <h1>69 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 105 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card106.png" alt="">
+      <div class="malumot">
+        <p>O'g'il bolalar tagliklari Huggies Ultra Comfort 4+, 10-16 kg, 17 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (148 sharsh)</p>
+      </div>
+      <h2 class="price">6 240 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>67 000 so'm</del>
+          <h1>52 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Xobbi va ijodkorlik <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+
+<div class="cards">
+  <!-- 106 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card106.png" alt="">
+      <div class="malumot">
+        <p>Organayzer munchoqlar to'plami harflar, smayliklar bilan, 28 ta rang</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (140 sharsh)</p>
+      </div>
+      <h2 class="price">4 800 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>150 000 so'm</del>
+          <h1>40 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 107 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card107.png" alt="">
+      <div class="malumot">
+        <p>Rasm chizish uchun to'plam markerlar bilan qutida</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (35 sharsh)</p>
+      </div>
+      <h2 class="price">30 240 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>414 000 so'm</del>
+          <h1>252 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 108 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card108.png" alt="">
+      <div class="malumot">
+        <p>Chizish uchun grafik plansheti 16",12", 10.5", 10", 8.5", stilus bilan</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (391 sharsh)</p>
+      </div>
+      <h2 class="price">3 360 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>97 000 so'm</del>
+          <h1>28 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div> 
+  <!-- 109 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card109.png" alt="">
+      <div class="malumot">
+        <p>Rasm chizish uchun to'plam, 208 buyumlar chamadonda, qizlar…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (33 sharsh)</p>
+      </div>
+      <h2 class="price">25 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>280 000 so'm</del>
+          <h1>210 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 110 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card110.png" alt="">
+      <div class="malumot">
+        <p>Kartalar K-POP "(G)I-DLE", 55 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (105 sharsh)</p>
+      </div>
+      <h2 class="price">6 600 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>145 000 so'm</del>
+          <h1>55 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Flo turk oyoq kiyimi <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 111 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card111.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar krossovkalari FLO KINETIX</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">50 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>490 000 so'm</del>
+          <h1>424 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 112 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card112.png" alt="">
+      <div class="malumot">
+        <p>Ayollar botinkalari FLO KINETIX</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">61 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>599 000 so'm</del>
+          <h1>509 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 113 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card113.png" alt="">
+      <div class="malumot">
+        <p>Ayollar krossovkalari FLO KINETIX</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">40 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>399 000 so'm</del>
+          <h1>339 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 114 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card114.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar botinkalari FLO KINETIX</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+      </div>
+      <h2 class="price">55 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>540 000 so'm</del>
+          <h1>466 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 115 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card115.png" alt="">
+      <div class="malumot">
+        <p></p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">40 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>399 000 so'm</del>
+          <h1>339 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Uy yordmchilari <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 116 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card116.png" alt="">
+      <div class="malumot">
+        <p>Kir yuvish kukuni Tide Color avtomat, 3 kg</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0  (963 sharsh)</p>
+      </div>
+      <h2 class="price">9 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>93 000 so'm</del>
+          <h1>79 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 117 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card117.png" alt="">
+      <div class="malumot">
+        <p>Vileda Turbo Smart tozalash to'plami shvabra va siqgichli chelak</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (20 sharsh)</p>
+      </div>
+      <h2 class="price">59 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>699 000 so'm</del>
+          <h1>499 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 118 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card118.png" alt="">
+      <div class="malumot">
+        <p>Tozalash to'plami supurgi, polni cho'tkasi, axlat qutisi, to'plamda 2…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (41 sharsh)</p>
+      </div>
+      <h2 class="price">5 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>100 000 so'm</del>
+          <h1>49 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 119 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card119.png" alt="">
+      <div class="malumot">
+        <p>Kiyim quritgich metall Millennium X-Dry</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (109 sharsh)</p>
+      </div>
+      <h2 class="price">16 320 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>244 000 so'm</del>
+          <h1>136 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 120 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card120.png" alt="">
+      <div class="malumot">
+        <p>Mikrofibrali salfetka Vileda ActiFibre Soft, 1 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (10 sharsh)</p>
+      </div>
+      <h2 class="price">4 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>55 000 so'm</del>
+          <h1>35 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Brendlar chegirmada <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 121 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Super-chegirma</p>
+      <img src="./card121.png" alt="">
+      <div class="malumot">
+        <p>Ayollar uchun etiklar Calvin Klein xameleon BEH</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+      </div>
+      <h2 class="price">283 440 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>4 723 000 so'm</del>
+          <h1>2 362 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 122 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Super-chegirma</p>
+      <img src="./card122.png" alt="">
+      <div class="malumot">
+        <p>Ayollar kurtkasi Calvin Klein J20J216884 XKF</p>
+      </div>
+      <div class="starts">
+        <p> Yangilik</p>
+      </div>
+      <h2 class="price">441 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>7 358 000 so'm</del>
+          <h1>3 679 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 123 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Super-chegirma</p>
+      <img src="./card123.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar krossovkalar Unisex New Balance, MS327CTB</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+      </div>
+      <h2 class="price">144 360 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>1 492 000 so'm</del>
+          <h1>1 203 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 124 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Super-chegirma</p>
+      <img src="./card124.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar krossovkalari New Balance, Unisex, UXC72TD</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 5.0 (10 sharsh)</p> -->
+      </div>
+      <h2 class="price">173 400 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>1 701 000 so'm</del>
+          <h1>1 445 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 125 -->
+   <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Super-chegirma</p>
+      <img src="./card125.png" alt="">
+      <div class="malumot">
+        <p>Qizlar uchun libos Diva Kids DVKID40</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+      </div>
+      <h2 class="price">13 920 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>139 000 so'm</del>
+          <h1>116 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Butun oila uchun kiyimlar <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 126 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card126.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar kurtka, yengil, qishki</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (18 sharsh)</p>
+      </div>
+      <h2 class="price">27 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>395 000 so'm</del>
+          <h1>229 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 127 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card127.png" alt="">
+      <div class="malumot">
+        <p>Kurtka issiq Perfecto, holofiber bilan to'ldirilgan, kuz-qish, demi-…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (57 sharsh)</p>
+      </div>
+      <h2 class="price">27 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>500 000 so'm</del>
+          <h1>229 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 128 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card128.png" alt="">
+      <div class="malumot">
+        <p>Ayollarning asosiy vodolazkasi,kashmir, baland bo'yin, ayollar</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (206 sharsh)</p>
+      </div>
+      <h2 class="price">9 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>120 000 so'm</del>
+          <h1>79 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 129 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card129.png" alt="">
+      <div class="malumot">
+        <p>Ayollar va qizlar uchun vodolazka Ramonso, kuz, qish va bahor…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (198 sharsh)</p>
+      </div>
+      <h2 class="price">9 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>172 000 so'm</del>
+          <h1>79 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 130 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card130.png" alt="">
+      <div class="malumot">
+        <p>Svitshot komplekt shimi bilan,ayollar uchun</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (92 sharsh)</p>
+      </div>
+      <h2 class="price">18 000 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>180 000 so'm</del>
+          <h1>150 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Hammasi avto uchun <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 131 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card131.png" alt="">
+      <div class="malumot">
+        <p>Havo xushbo'ylantirgich avtomobil uchun</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (511 sharsh)</p>
+      </div>
+      <h2 class="price">9 240 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>180 000 so'm</del>
+          <h1>77 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 132 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card132.png" alt="">
+      <div class="malumot">
+        <p>Cap Koreya oyna tozalagichlari Chevrolet avtomobillari uchun</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (12 sharsh)</p>
+      </div>
+      <h2 class="price">16 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>300 000 so'm</del>
+          <h1>135 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 133 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card133.png" alt="">
+      <div class="malumot">
+        <p>Avtomobil uchun plastinka, telefon raqami, metall, telefon raqami…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (67 sharsh)</p>
+      </div>
+      <h2 class="price">3 840 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>100 000 so'm</del>
+          <h1>32 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 134 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card134.png" alt="">
+      <div class="malumot">
+        <p>Migalka oldi oyna uchun,stroboskop qizil, ko'k yonib…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (92 sharsh)</p>
+      </div>
+      <h2 class="price">18 000 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>180 000 so'm</del>
+          <h1>150 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 135 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card135.png" alt="">
+      <div class="malumot">
+        <p>Avtomobil uchun vinil stiker,yopishtirish uchun avtomobil…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (84 sharsh)</p>
+      </div>
+      <h2 class="price">1 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>60 000 so'm</del>
+          <h1>14 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Sog'lik va immunitet <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 136 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card136.png" alt="">
+      <div class="malumot">
+        <p>Kaltsiy, magniy, D3 vitamini bilan sink, 21st Century, 90 tabletka</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (37 sharsh)</p>
+      </div>
+      <h2 class="price">17 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>250 000 so'm</del>
+          <h1>144 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 137 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card137.png" alt="">
+      <div class="malumot">
+        <p>Spirulina Xels 150 tabletka, 250 mg</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (187 sharsh)</p>
+      </div>
+      <h2 class="price">6 120 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>70 000 so'm</del>
+          <h1>51 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 138 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card138.png" alt="">
+      <div class="malumot">
+        <p>Gidrolizlangan kollagen peptidlari vitaminlari, California Gold Nutriti…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (50 sharsh)</p>
+      </div>
+      <h2 class="price">31 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>350 000 so'm</del>
+          <h1>259 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 139 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card13.png" alt="">
+      <div class="malumot">
+        <p>Vitamin Omega-3 Swiss Energy Multivit Shveytsariyadan, 60 dona</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (26 sharsh)</p>
+      </div>
+      <h2 class="price">23 760 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>233 000 so'm</del>
+          <h1>198 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 140 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card140.png" alt="">
+      <div class="malumot">
+        <p>Kattalar va bolalar uchun ingalyator, nebulayzer qo'lda…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.4 (58 sharsh)</p>
+      </div>
+      <h2 class="price">23 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>500 000 so'm</del>
+          <h1>199 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Yorug'lik uchun <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 141 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card141.png" alt="">
+      <div class="malumot">
+        <p>Simsiz organayzerli o'quv lampasi,stol chirog'i, Led chiroq</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (33 sharsh)</p>
+      </div>
+      <h2 class="price">19 800 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>300 000 so'm</del>
+          <h1>165 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 142 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card142.png" alt="">
+      <div class="malumot">
+        <p>Qorong'uda ham kitob o'qish uchun, kichkina LED panel</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.8 (18 sharsh)</p>
+      </div>
+      <h2 class="price">7 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>99 000 so'm</del>
+          <h1>65 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 143 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card143.png" alt="">
+      <div class="malumot">
+        <p>Svetodiodli tungi chiroq mushuk</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">11 040 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>143 000 so'm</del>
+          <h1>92 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 144 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card144.png" alt="">
+      <div class="malumot">
+        <p>Stol lampasi, metalldan, klassic korinishda</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (133 sharsh)</p>
+      </div>
+      <h2 class="price">25 200 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>350 000 so'm</del>
+          <h1>210 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 145 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card145.png" alt="">
+      <div class="malumot">
+        <p>LED stol lampasi, 5 si 1 da, chiroq,soat, termometr, tungi chirogi,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p>
+      </div>
+      <h2 class="price">20 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>330 000 so'm</del>
+          <h1>169 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="name">
+  <h1>Yangi <i class="fa-solid fa-angle-right "></i></h1>
+</div>
+
+<div class="cards">
+  <!-- 146 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card146.png" alt="">
+      <div class="malumot">
+        <p>Tish pastasi Colgate Natural Extracts Lemon, 75 ml + Tish…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">4 560 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>78 000 so'm</del>
+          <h1>38 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 147 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card147.png" alt="">
+      <div class="malumot">
+        <p>Smartfon Xiaomi Redmi Note 13 Pro, 8/256 ГБ, 12/512 ГБ, 6.67", 1…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (6 sharsh)</p>
+      </div>
+      <h2 class="price">448 680 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>6 000 000 so'm</del>
+          <h1>3 739 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 148 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card148.png" alt="">
+      <div class="malumot">
+        <p>Sport kostyumi o'g'il bolalar uchun DUDUKA TRENDS. To'plam Hudi…</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p> -->
+      </div>
+      <h2 class="price">23 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>338 000 so'm</del>
+          <h1>199 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 149 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card149.png" alt="">
+      <div class="malumot">
+        <p>Idishlarni yuvish vositasi AXMA,500 g</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p> -->
+      </div>
+      <h2 class="price">720 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>10 000 so'm</del>
+          <h1>6 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 150 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card150.png" alt="">
+      <div class="malumot">
+        <p>Hudi erkaklar uchun oversayz rossiya brendidan DUDUKA…</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p> -->
+      </div>
+      <h2 class="price">19 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>399 000 so'm</del>
+          <h1>159 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 151 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+       <p id="vaqtinchalik">Vaqtinchalik chegirma</p>
+      <img src="./card151.png" alt="">
+      <div class="malumot">
+        <p>Anker Life 2 Neo simsiz quloqchinlari chuqur bosh va uzo…</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p> -->
+      </div>
+      <h2 class="price">20 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>1 089 000 so'm</del>
+          <h1>589 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 152 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+       <p id="vaqtinchalik">Vaqtinchalik chegirma</p>
+      <img src="./card152.png" alt="">
+      <div class="malumot">
+        <p>Simsiz quloqchinlari Anker soundcore A20i, Bluetooth 5.3</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p> -->
+      </div>
+      <h2 class="price">32 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>399 000 so'm</del>
+          <h1>269 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 153 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card153.png" alt="">
+      <div class="malumot">
+        <p>Smartfon Xiaomi Redmi Note 13,6/128 GB, 8/128 GB, 8/256GB,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (4 sharsh)</p>
+      </div>
+      <h2 class="price">297 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>4 997 000 so'm</del>
+          <h1>2 479 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 154 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card154.png" alt="">
+      <div class="malumot">
+        <p>Yog' yoquvchi Molecular PRO Lipolitik, vazn yo'qotish kapsulalar…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+      </div>
+      <h2 class="price">20 280 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>490 000 so'm</del>
+          <h1>169 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 155 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card155.png" alt="">
+      <div class="malumot">
+        <p>Massajli soch tarog'i va mayin</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 4.9 (10 sharsh)</p>
+      </div>
+      <h2 class="price">2 520 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>78 000 so'm</del>
+          <h1>21 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 156 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card156.png" alt="">
+      <div class="malumot">
+        <p>Smartfon Xiaomi Redmi Note 13,6/128 GB, 8/128 GB, 8/256GB,…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">297 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>4 997 000 so'm</del>
+          <h1>2 479 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 157 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card157.png" alt="">
+      <div class="malumot">
+        <p>Zarbga chidamli smartfon Honor X9b 5G, 8/12/256 GB, 6,78 OLED…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">478 800 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>6 000 000 so'm</del>
+          <h1>3 990 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 158 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card158.png" alt="">
+      <div class="malumot">
+        <p>The Act ko'z atrofi, qora doiralar qarshi ko'z kremi, ko'k choy, E…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (8 sharsh)</p>
+      </div>
+      <h2 class="price">13 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>289 000 so'm</del>
+          <h1>109 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 159 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card159.png" alt="">
+      <div class="malumot">
+        <p>Yuz kremi vitamin C bilan, The Act,namlantiradi va terini oziqlantiradi…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (8 sharsh)</p>
+      </div>
+      <h2 class="price">13 080 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>289 000 so'm</del>
+          <h1>109 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 160 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card160.png" alt="">
+      <div class="malumot">
+        <p>Bogema etajerka bogema chaq chuq solish uchun 2 donasini narxi</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">35 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>650 000 so'm</del>
+          <h1>299 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 161 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card161.png" alt="">
+      <div class="malumot">
+        <p>Chizma dastgohi, ikki tomonlama,markerli, rangli qalamlar, magnitli…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+      </div>
+      <h2 class="price">35 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>600 000 so'm</del>
+          <h1>299 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 162 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card162.png" alt="">
+      <div class="malumot">
+        <p></p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (2 sharsh)</p>
+      </div>
+      <h2 class="price">645 480 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>7 000 000 so'm</del>
+          <h1>5 379 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 163 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card163.png" alt="">
+      <div class="malumot">
+        <p>Noutbuk HP AMD Ryzen 7-5825U,DDR4 16GB SSD 512GB, 15.6" FU…</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p> -->
+      </div>
+      <h2 class="price">864 000 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>8 200 000 so'm</del>
+          <h1>7 200 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 164 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <p id="reklama">Aksiya</p>
+      <img src="./card164.png" alt="">
+      <div class="malumot">
+        <p>Chopper maydalagich 5 tasi 1 da, 3,5 litrli, elektr va qo'lda ishlaydig…</p>
+      </div>
+      <div class="starts">
+        <!-- <p><i class="fa-solid fa-star"></i> 4.9 (27 sharsh)</p> -->
+      </div>
+      <h2 class="price">35 880 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>500 000 so'm</del>
+          <h1>299 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+  <!-- 165 -->
+  <div class="card">
+    <i id="heart" class="fa-regular fa-heart"></i>
+      <!-- <p id="reklama">Aksiya</p> -->
+      <img src="./card165.png" alt="">
+      <div class="malumot">
+        <p>Erkaklar va ayollar krossovkalari,dizaynerlik, sport, yurish va…</p>
+      </div>
+      <div class="starts">
+        <p><i class="fa-solid fa-star"></i> 5.0 (1 sharsh)</p>
+      </div>
+      <h2 class="price">46 800 so'm/oyiga</h2>
+      <div class="shop">
+        <div class="text">
+          <del>650 000 so'm</del>
+          <h1>390 000 so'm</h1>
+        </div>
+      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      </div>
+  </div>
+</div>
+
+    <div class="btncontine">
+      <button>Yana koʻrsatish 20</button>
+    </div>
+
+<div class="footer">
+  <div class="main1">
+    <div class="one">
+      <h1>Biz haqimizda</h1>
+      <p>Topshirish punktlari</p>
+      <p>Vakansiyalar</p>
+    </div>
+    <div class="two">
+      <h1>Foydalanuvchilarga</h1>
+      <p>Biz bilan bogʻlanish</p>
+      <p>Savol-Javob</p>
+    </div>
+    <div class="thre">
+      <h1>Tadbirkorlarga</h1>
+      <p>Uzumda soting</p>
+      <p>Sotuvchi kabinetiga kirish</p>
+    </div>
+    <div class="four">
+      <div class="bir">
+        <h1>Ilovani yuklab olish</h1>
+        <div class="icon">
+          <img src="./icons1.png" alt="">
+          <img src="./icons2.png" alt="">
+        </div>
+      </div>
+      <div class="ikki">
+        <h1>Uzum ijtimoiy tarmoqlarda</h1>
+        <div class="icon">
+          <img src="./instagram.png" alt="">       
+          <img src="./telegram.png" alt="">
+          <img src="./youtube.png" alt="">
+          <img src="./facebook.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="main2">
+    <div class="matn">
+      <div class="biri">
+        <h1>Maxfiylik kelishuvi</h1>
+      </div>
+      <div class="iki">
+        <h1>Foydalanuvchi kelishuvi</h1>
+      </div>
+    </div>
+    <div class="strix">
+      <p>«2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</p>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

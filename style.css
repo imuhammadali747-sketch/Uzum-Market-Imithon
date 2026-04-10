@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#til {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#til:hover {
+    color: black;
+}
+
+.headerone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.headerone .logo img {
+    margin-left: 125px;
+    font-size: 30px;
+}
+
+
+.tizim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tizim .search {
+    width: 455px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #ccc  ;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.tizim .search input {
+    border: none;
+    outline: none;
+}
+
+.tizim .search button {
+    background: none;
+    cursor: pointer;
+    margin-left: 225px;
+}
+
+.tizim .katalog button {
+    background: #6f00ff19;
+    border-radius: 5px;
+    border: 1px solid #6f00ff96;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.tizim .katalog button:hover {
+    background: #6f00ff3c;
+}
+
+.tizim {
+    margin-left: -30px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 125px;
+}
+
+.icon .user:hover {
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 0px 2px;
+}
+
+
+.icon .saralangan:hover {
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 0px 2px;
+}
+
+
+.icon .savat:hover {
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 0px 2px;
+}
+.icon i {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headertwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 15px;
+}   
+
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #7000FF;
+    font-weight: 600;
+}
+
+.yangiliklar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}   
+
+.yangiliklar img:hover {
+    box-shadow: gray 4px 4px 8px;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+
+
+.name {
+    margin-top: 48px;
+    margin-left: 150px;
+    display: flex;
+    gap: 10px;
+}
+
+.name h1 i{
+    font-size: 14px;
+}
+
+.name h1 {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5, 248px); /* 1 qatorda 5 ta */
+    gap: 5px;
+}
+
+
+.cards .card {
+    width: 230px;
+    height: 456px;
+    margin: 0 20px;
+    gap: 20px;
+    top: 20px;
+    left: 120px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cards .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.cards .card img {
+    width: 232px;
+    height: 310px;
+}
+
+.cards .card .price {
+    background-color: #FFFF00;
+    border-radius: 10px;
+    width: 60% ;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards .card .starts {
+    color: gray;
+    display: flex;
+    gap: 5px;
+}
+
+.cards .card .starts i {
+    color: orange;
+}
+
+.cards .card  .malumot {
+    margin-top: 2px;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.cards .card  .starts {
+    margin-top: 2px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.cards .card .shop .text del {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 8px;
+    color: gray;
+}
+
+.cards .card .shop .text h1 {
+    width: 105px;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.cards .card .shop .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards .card .shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:   85px;
+}
+
+.cards .card .shop button {
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.cards .card .shop button i{
+    font-size: 20px;
+}
+
+.cards .card .price  {
+    margin-top: 2px;
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cards .card  #heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.cards .card #reklama {
+    color: white;
+    position: absolute;
+    font-weight: 15px;
+    top: 280px;
+    left: 5px;
+    background-color:#7000FF;
+    border-radius: 4px;
+    padding: 0px 5px;
+}
+
+.cards .card #vaqtinchalik {
+    color: white;
+    background-color: #F4488D;
+    border-radius: 4px;
+    position: absolute;
+    top: 280px;
+    left: 62px;
+    padding: 0px 5px;
+}
+
+.btncontine {
+    width: 740px;
+    height: 56px;
+    background-color: #F2F4F7;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 390px;
+    cursor: pointer;
+}
+
+.btncontine:hover {
+    background-color: #E0E4E7;
+}
+
+.btncontine button {
+    margin-top: 16px;
+    margin-left: 300px;
+}
+
+
+.footer .main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 205px;
+    margin-top: 50px;
+    margin-left: 145px;
+}
+
+.footer .main1 p {
+    color: gray;
+}
+
+.footer .main1 h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer .main1 .icons {
+    display: flex;
+}
+
+.footer .main1 .one p{
+    margin-top: 8px;
+}
+
+.footer .main1 .two p{
+    margin-top: 8px;
+}
+
+.footer .main1 .thre p{
+    margin-top: 8px;
+}
+
+.footer .main1 .four p{
+    margin-top: 8px;
+}
+
+.footer .main1 .four .bir .icon{
+    margin-left: 10px;
+    gap: 15px;
+}
+
+.footer .main1 .four .ikki .icon{
+    margin-left: 10px;
+    gap: 15px;
+}
+
+.footer hr {
+    margin-top: 50px;
+    margin-left: 140px;
+    width: 85%;
+    border: 1px solid #ccc;
+}
+
+.footer .main2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 305px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.footer .main2 p {
+    color: gray;
+}
+
+.footer .main2 .matn {
+    display: flex;
+    gap: 50px;
+}
+
+.footer .main2 .matn h1{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer .main2 .strix p {
+    font-size: 12px;
+}
+
