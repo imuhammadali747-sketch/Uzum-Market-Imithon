@@ -361,10 +361,16 @@ nav ul li:hover {
     gap: 15px;
 }
 
-.footer .main1 .four .ikki .icon{
-    margin-left: 10px;
-    gap: 15px;
+
+
+.footer .main1 .four .bir .icon img:hover{
+    box-shadow: gray 4px 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0px 5px;
 }
+
+
 
 .footer hr {
     margin-top: 50px;
@@ -399,4 +405,18 @@ nav ul li:hover {
 .footer .main2 .strix p {
     font-size: 12px;
 }
+
+
+.footer .main1 .four .ikki .icon img:hover{
+    box-shadow: gray 4px 4px 8px;
+    border-radius: 12px;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.footer .main1 .four .ikki .icon  {
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
 
